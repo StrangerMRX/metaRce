@@ -1,3 +1,10 @@
+( git clone https://github.com/StrangerMRX/metaRce )
+----------------------------------------
+
+
+
+
+
 Блять кароче чтоб использовать установите
 requests -1
 colorama -2
